@@ -1,0 +1,64 @@
+#img1{
+    border-radius: 40px;
+}
+
+#img2{
+    border-radius: 40px;
+}
+
+#img3{
+    border-radius: 40px;
+}
+
+#img4{
+    border-radius: 40px;
+}
+
+#welcome {
+    -webkit-animation: color-change 2.5s infinite;
+    -moz-animation: color-change 2.5s infinite;
+    -o-animation: color-change 2.5s infinite;
+    -ms-animation: color-change 2.5s infinite;
+    animation: color-change 2.5s infinite;
+}
+
+@-webkit-keyframes color-change {
+    0% { color: rgb(255, 255, 255); }
+    50% { color: rgb(78, 78, 78); }
+    100% { color: rgb(0, 0, 0); }
+}
+@-moz-keyframes color-change {
+    0% { color: rgb(255, 255, 255); }
+    50% { color: rgb(78, 78, 78); }
+    100% { color: rgb(0, 0, 0); }
+}
+@-ms-keyframes color-change {
+    0% { color: rgb(255, 255, 255); }
+    50% { color: rgb(78, 78, 78); }
+    100% { color: rgb(0, 0, 0); }
+}
+@-o-keyframes color-change {
+    0% { color: rgb(255, 255, 255); }
+    50% { color: rgb(78, 78, 78); }
+    100% { color: rgb(0, 0, 0); }
+}
+@keyframes color-change {
+    0% { color: rgb(255, 255, 255); }
+    50% { color: rgb(78, 78, 78); }
+    100% { color: rgb(0, 0, 0); }
+}
+
+#img5{
+    border-radius: 40px;
+
+}
+
+.buttons{
+    position: relative;
+    background-color: rgb(58, 58, 58);
+    color: #ffffff;
+    border-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    top: 360px;
+    right: 520px;
+}
